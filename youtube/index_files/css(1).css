@@ -1,0 +1,14 @@
+@font-face {
+	font-family: Roboto;
+	src: url(https://fonts.gstatic.com/l/font?kit=KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiAw&skey=a0a0114a1dcab3ac&v=v50) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(https://fonts.gstatic.com/l/font?kit=KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiAw&skey=a0a0114a1dcab3ac&v=v50) format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+}

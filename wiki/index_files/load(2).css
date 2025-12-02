@@ -1,0 +1,1197 @@
+cite {
+	font-style: inherit;
+}
+dfn {
+	font-style: inherit;
+}
+ol.references {
+	font-size: 90%; margin-bottom: 0.5em;
+}
+div.reflist {
+	font-size: 90%; margin-bottom: 0.5em;
+}
+div.reflist ol.references {
+	font-size: 100%;
+}
+div.reflist ol.references {
+	list-style-type: inherit;
+}
+div.notelist ol.references {
+	list-style-type: inherit;
+}
+div.references-2column {
+	font-size: 90%; column-count: 2; -moz-column-count: 2;
+}
+div.references-2column ol.references {
+	font-size: 100%;
+}
+div.references-2column div.reflist {
+	font-size: 100%;
+}
+a[rel='mw:referencedBy']::before {
+	font-weight: bold; content: "^";
+}
+span[rel='mw:referencedBy'] > a::before {
+	font-weight: bold; content: counter(mw-references,decimal) "." counter(mw-ref-linkback,decimal);
+}
+span[rel='mw:referencedBy']::before {
+	content: "^ ";
+}
+.client-js .mw-special-Watchlist #watchlist-message {
+	margin-top: 0.3em;
+}
+.client-js :not(.mw-made-collapsible).collapsible.collapsed > tbody > tr:not(:first-child) {
+	margin-top: 0.3em;
+}
+.client-js .outercollapse :not(.mw-made-collapsible).innercollapse.mw-collapsible > p {
+	margin-top: 0.3em;
+}
+.client-js .outercollapse :not(.mw-made-collapsible).innercollapse.mw-collapsible > table {
+	margin-top: 0.3em;
+}
+.client-js .outercollapse :not(.mw-made-collapsible).innercollapse.mw-collapsible > thead + tbody {
+	margin-top: 0.3em;
+}
+.client-js .outercollapse :not(.mw-made-collapsible).innercollapse.mw-collapsible tr:not(:first-child) {
+	margin-top: 0.3em;
+}
+.client-js .outercollapse :not(.mw-made-collapsible).innercollapse.mw-collapsible .mw-collapsible-content {
+	margin-top: 0.3em;
+}
+div.columns {
+	margin-top: 0.3em;
+}
+div.columns dl {
+	margin-top: 0px;
+}
+div.columns ol {
+	margin-top: 0px;
+}
+div.columns ul {
+	margin-top: 0px;
+}
+div.columns li {
+	page-break-inside: avoid; break-inside: avoid-column; -webkit-column-break-inside: avoid;
+}
+div.columns dd dd {
+	page-break-inside: avoid; break-inside: avoid-column; -webkit-column-break-inside: avoid;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.nowraplinks a {
+	white-space: nowrap;
+}
+.nowraplinks .selflink {
+	white-space: nowrap;
+}
+span.texhtml {
+	white-space: nowrap;
+}
+sup.reference a {
+	white-space: nowrap;
+}
+.wrap {
+	white-space: normal;
+}
+.wraplinks a {
+	white-space: normal;
+}
+.hlist dl {
+	margin: 0px;
+}
+.hlist ol {
+	margin: 0px;
+}
+.hlist ul {
+	margin: 0px;
+}
+.hlist dd {
+	margin: 0px; display: inline;
+}
+.hlist dt {
+	margin: 0px; display: inline;
+}
+.hlist li {
+	margin: 0px; display: inline;
+}
+.hlist.inline {
+	display: inline;
+}
+.hlist.inline dl {
+	display: inline;
+}
+.hlist.inline ol {
+	display: inline;
+}
+.hlist.inline ul {
+	display: inline;
+}
+.hlist dl dl {
+	display: inline;
+}
+.hlist dl ol {
+	display: inline;
+}
+.hlist dl ul {
+	display: inline;
+}
+.hlist ol dl {
+	display: inline;
+}
+.hlist ol ol {
+	display: inline;
+}
+.hlist ol ul {
+	display: inline;
+}
+.hlist ul dl {
+	display: inline;
+}
+.hlist ul ol {
+	display: inline;
+}
+.hlist ul ul {
+	display: inline;
+}
+.hlist dt::after {
+	content: " :";
+}
+.hlist dd::after {
+	font-weight: bold; content: " ¡¤ ";
+}
+.hlist li::after {
+	font-weight: bold; content: " ¡¤ ";
+}
+.hlist dd:last-child::after {
+	content: none;
+}
+.hlist dt:last-child::after {
+	content: none;
+}
+.hlist li:last-child::after {
+	content: none;
+}
+.hlist dl dl::before {
+	content: "£¨";
+}
+.hlist ol ol::before {
+	content: "£¨";
+}
+.hlist ul ul::before {
+	content: "£¨";
+}
+.hlist dl dl::after {
+	content: "£©";
+}
+.hlist ol ol::after {
+	content: "£©";
+}
+.hlist ul ul::after {
+	content: "£©";
+}
+.hlist.hnum ol li {
+	counter-increment: level1;
+}
+.hlist.hnum ol li::before {
+	content: counter(level1) " ";
+}
+.hlist.hnum ol ol li {
+	counter-increment: level2;
+}
+.hlist.hnum ol ol li::before {
+	content: counter(level2) " ";
+}
+.plainlist ul {
+	list-style: none; margin: 0px; line-height: inherit;
+}
+.plainlist ul li {
+	margin-bottom: 0px;
+}
+.same-bg {
+	background: none;
+}
+.notice {
+	margin: 1em; padding: 0.2em; text-align: justify;
+}
+#disambig {
+	
+}
+#spoiler {
+	
+}
+.infobox {
+	margin: 0.5em 0px 0.5em 1em; padding: 0.2em; border: 1px solid rgb(162, 169, 177); border-image: none; width: 22em; color: inherit; line-height: 1.5em; clear: right; font-size: 88%; float: right; border-spacing: 3px; background-color: rgb(248, 249, 250);
+}
+.infobox-header {
+	vertical-align: top;
+}
+.infobox-label {
+	vertical-align: top;
+}
+.infobox-above {
+	vertical-align: top;
+}
+.infobox-full-data {
+	vertical-align: top;
+}
+.infobox-data {
+	vertical-align: top;
+}
+.infobox-below {
+	vertical-align: top;
+}
+.infobox-subheader {
+	vertical-align: top;
+}
+.infobox-image {
+	vertical-align: top;
+}
+.infobox-navbar {
+	vertical-align: top;
+}
+.infobox th {
+	vertical-align: top;
+}
+.infobox td {
+	vertical-align: top;
+}
+.infobox-label {
+	text-align: left;
+}
+.infobox-data {
+	text-align: left;
+}
+.infobox th {
+	text-align: left;
+}
+.infobox td {
+	text-align: left;
+}
+.infobox .infobox-above {
+	text-align: center; font-size: 125%; font-weight: bold;
+}
+.infobox .infobox-title {
+	text-align: center; font-size: 125%; font-weight: bold;
+}
+.infobox caption {
+	text-align: center; font-size: 125%; font-weight: bold;
+}
+.infobox-title {
+	padding: 0.2em;
+}
+.infobox caption {
+	padding: 0.2em;
+}
+.infobox .infobox-header {
+	text-align: center;
+}
+.infobox .infobox-subheader {
+	text-align: center;
+}
+.infobox .infobox-image {
+	text-align: center;
+}
+.infobox .infobox-full-data {
+	text-align: center;
+}
+.infobox .infobox-below {
+	text-align: center;
+}
+.infobox .infobox-navbar {
+	text-align: right;
+}
+.infobox.bordered {
+	border-collapse: collapse;
+}
+.infobox.bordered td {
+	
+}
+.infobox.bordered th {
+	
+}
+.infobox.bordered .borderless td {
+	border: 0px currentColor; border-image: none;
+}
+.infobox.bordered .borderless th {
+	border: 0px currentColor; border-image: none;
+}
+.infobox.bordered .mergedtoprow td {
+	border: 0px currentColor; border-image: none;
+}
+.infobox.bordered .mergedtoprow th {
+	border: 0px currentColor; border-image: none;
+}
+.infobox.bordered .mergedrow td {
+	border: 0px currentColor; border-image: none;
+}
+.infobox.bordered .mergedrow th {
+	border: 0px currentColor; border-image: none;
+}
+.infobox.geography {
+	text-align: left; line-height: 1.2em; font-size: 90%; border-collapse: collapse;
+}
+.infobox.geography td {
+	padding: 0.4em 0.6em;
+}
+.infobox.geography th {
+	padding: 0.4em 0.6em;
+}
+.infobox.geography .mergedtoprow td {
+	padding: 0.4em 0.6em 0.2em;
+}
+.infobox.geography .mergedtoprow th {
+	padding: 0.4em 0.6em 0.2em;
+}
+.infobox.geography .mergedrow td {
+	padding: 0px 0.6em 0.2em; border: 0px currentColor; border-image: none;
+}
+.infobox.geography .mergedrow th {
+	padding: 0px 0.6em 0.2em; border: 0px currentColor; border-image: none;
+}
+.infobox.geography .mergedbottomrow td {
+	padding: 0px 0.6em 0.4em; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.infobox.geography .mergedbottomrow th {
+	padding: 0px 0.6em 0.4em; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.infobox.geography .maptable td {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+.infobox.geography .maptable th {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+.hiddenStructure {
+	display: inline !important; background-color: rgb(0, 255, 0);
+}
+.nounderlines a {
+	text-decoration: none !important;
+}
+.charboxblack a:link {
+	color: black;
+}
+.charboxblack a:hover {
+	color: black;
+}
+.charboxblack a:visited {
+	color: black;
+}
+.charboxblack a:active {
+	color: black;
+}
+.charboxsilver a:link {
+	color: silver;
+}
+.charboxsilver a:hover {
+	color: silver;
+}
+.charboxsilver a:visited {
+	color: silver;
+}
+.charboxsilver a:active {
+	color: silver;
+}
+.charboxgray a:link {
+	color: gray;
+}
+.charboxgray a:hover {
+	color: gray;
+}
+.charboxgray a:visited {
+	color: gray;
+}
+.charboxgray a:active {
+	color: gray;
+}
+.charboxwhite a:link {
+	color: white;
+}
+.charboxwhite a:hover {
+	color: white;
+}
+.charboxwhite a:visited {
+	color: white;
+}
+.charboxwhite a:active {
+	color: white;
+}
+.charboxmaroon a:link {
+	color: maroon;
+}
+.charboxmaroon a:hover {
+	color: maroon;
+}
+.charboxmaroon a:visited {
+	color: maroon;
+}
+.charboxmaroon a:active {
+	color: maroon;
+}
+.charboxred a:link {
+	color: red;
+}
+.charboxred a:hover {
+	color: red;
+}
+.charboxred a:visited {
+	color: red;
+}
+.charboxred a:active {
+	color: red;
+}
+.charboxpurple a:link {
+	color: purple;
+}
+.charboxpurple a:hover {
+	color: purple;
+}
+.charboxpurple a:visited {
+	color: purple;
+}
+.charboxpurple a:active {
+	color: purple;
+}
+.charboxfuchsia a:link {
+	color: fuchsia;
+}
+.charboxfuchsia a:hover {
+	color: fuchsia;
+}
+.charboxfuchsia a:visited {
+	color: fuchsia;
+}
+.charboxfuchsia a:active {
+	color: fuchsia;
+}
+.charboxgreen a:link {
+	color: green;
+}
+.charboxgreen a:hover {
+	color: green;
+}
+.charboxgreen a:visited {
+	color: green;
+}
+.charboxgreen a:active {
+	color: green;
+}
+.charboxlime a:link {
+	color: lime;
+}
+.charboxlime a:hover {
+	color: lime;
+}
+.charboxlime a:visited {
+	color: lime;
+}
+.charboxlime a:active {
+	color: lime;
+}
+.charboxolive a:link {
+	color: olive;
+}
+.charboxolive a:hover {
+	color: olive;
+}
+.charboxolive a:visited {
+	color: olive;
+}
+.charboxolive a:active {
+	color: olive;
+}
+.charboxyellow a:link {
+	color: yellow;
+}
+.charboxyellow a:hover {
+	color: yellow;
+}
+.charboxyellow a:visited {
+	color: yellow;
+}
+.charboxyellow a:active {
+	color: yellow;
+}
+.charboxnavy a:link {
+	color: navy;
+}
+.charboxnavy a:hover {
+	color: navy;
+}
+.charboxnavy a:visited {
+	color: navy;
+}
+.charboxnavy a:active {
+	color: navy;
+}
+.charboxblue a:link {
+	color: blue;
+}
+.charboxblue a:hover {
+	color: blue;
+}
+.charboxblue a:visited {
+	color: blue;
+}
+.charboxblue a:active {
+	color: blue;
+}
+.charboxteal a:link {
+	color: teal;
+}
+.charboxteal a:hover {
+	color: teal;
+}
+.charboxteal a:visited {
+	color: teal;
+}
+.charboxteal a:active {
+	color: teal;
+}
+.charboxaqua a:link {
+	color: aqua;
+}
+.charboxaqua a:hover {
+	color: aqua;
+}
+.charboxaqua a:visited {
+	color: aqua;
+}
+.charboxaqua a:active {
+	color: aqua;
+}
+#editpage-specialchars a {
+	text-decoration: none;
+}
+#editpage-specialchars a:hover {
+	text-decoration: underline;
+}
+.messagebox {
+	margin: 0px auto 1em; padding: 0.2em; width: 80%; color: inherit; display: inherit;
+}
+.messagebox.merge {
+	border: 1px solid rgb(192, 184, 204); border-image: none; text-align: center; background-color: rgb(240, 229, 255);
+}
+.messagebox.cleanup {
+	border: 1px solid rgb(159, 159, 255); border-image: none; text-align: center; background-color: rgb(239, 239, 255);
+}
+.messagebox.standard-talk {
+	border: 1px solid rgb(192, 192, 144); border-image: none; background-color: rgb(248, 234, 186);
+}
+.messagebox.nested-talk {
+	margin: 2px 4px; border: 1px solid rgb(192, 192, 144); border-image: none; width: 100%; background-color: rgb(248, 234, 186);
+}
+.messagebox.small {
+	margin: 0px 0px 1em 1em; width: 238px; line-height: 1.25em; clear: both; font-size: 85%; float: right;
+}
+.messagebox.small-talk {
+	background: rgb(248, 249, 250); margin: 0px 0px 1em 1em; width: 238px; line-height: 1.25em; clear: both; font-size: 85%; float: right;
+}
+#bodyContent a[href$='.pdf'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/4/4d/Icon_pdf_file.png") no-repeat right; padding-right: 16px;
+}
+#bodyContent a[href*='.pdf?'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/4/4d/Icon_pdf_file.png") no-repeat right; padding-right: 16px;
+}
+#bodyContent a[href*='.pdf#'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/4/4d/Icon_pdf_file.png") no-repeat right; padding-right: 16px;
+}
+#bodyContent a[href$='.PDF'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/4/4d/Icon_pdf_file.png") no-repeat right; padding-right: 16px;
+}
+#bodyContent a[href*='.PDF?'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/4/4d/Icon_pdf_file.png") no-repeat right; padding-right: 16px;
+}
+#bodyContent a[href*='.PDF#'].external {
+	background: url("//upload.wikimedia.org/wikipedia/commons/4/4d/Icon_pdf_file.png") no-repeat right; padding-right: 16px;
+}
+span.lanLabel {
+	padding-left: 0.5em;
+}
+tt span.minor {
+	margin: 0px -2px 0px -3px; font-size: 12px;
+}
+tt span.newpage {
+	margin: 0px 1px 0px -6px; font-size: 12px;
+}
+tt span.bot {
+	margin: 0px -6px 0px 1px; font-size: 12px;
+}
+div.user-block {
+	padding: 5px; color: inherit;
+}
+@media screen, handheld, projection
+{
+cite *.printonly {
+	display: none;
+}
+}
+th.mbox-text {
+	padding: 0.25em 0.9em; border: currentColor; border-image: none; width: 100%;
+}
+td.mbox-text {
+	padding: 0.25em 0.9em; border: currentColor; border-image: none; width: 100%;
+}
+td.mbox-image {
+	padding: 2px 0px 2px 0.9em; border: currentColor; border-image: none; text-align: center;
+}
+td.mbox-imageright {
+	padding: 2px 0.9em 2px 0px; border: currentColor; border-image: none; text-align: center;
+}
+td.mbox-empty-cell {
+	padding: 0px; border: currentColor; border-image: none; width: 1px;
+}
+table.ambox {
+	background: rgb(248, 249, 250); border-width: 1px 1px 1px 10px; border-style: solid; border-color: rgb(162, 169, 177) rgb(162, 169, 177) rgb(162, 169, 177) rgb(51, 102, 204); margin: 0px 10%; border-image: none;
+}
+table.ambox + table.ambox {
+	margin-top: -1px;
+}
+.ambox th.mbox-text {
+	padding: 0.25em 0.5em;
+}
+.ambox td.mbox-text {
+	padding: 0.25em 0.5em;
+}
+.ambox td.mbox-image {
+	padding: 2px 0px 2px 0.5em;
+}
+.ambox td.mbox-imageright {
+	padding: 2px 0.5em 2px 0px;
+}
+table.ambox-notice {
+	border-left-color: rgb(51, 102, 204); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-speedy {
+	background: rgb(254, 231, 230); border-left-color: rgb(179, 36, 36); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-delete {
+	border-left-color: rgb(179, 36, 36); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-content {
+	border-left-color: rgb(242, 133, 0); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-style {
+	border-left-color: rgb(255, 204, 51); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-move {
+	border-left-color: rgb(153, 50, 204); border-left-width: 10px; border-left-style: solid;
+}
+table.ambox-protection {
+	border-left-color: rgb(162, 169, 177); border-left-width: 10px; border-left-style: solid;
+}
+table.cmbox {
+	background: rgb(234, 243, 255); margin: 3px 10%; border: 1px solid rgb(162, 169, 177); border-image: none; border-collapse: collapse;
+}
+table.cmbox-notice {
+	background: rgb(234, 243, 255);
+}
+table.cmbox-speedy {
+	background: rgb(254, 231, 230); border: 4px solid rgb(179, 36, 36); border-image: none; margin-top: 4px; margin-bottom: 4px;
+}
+table.cmbox-delete {
+	background: rgb(254, 231, 230);
+}
+table.cmbox-content {
+	background: rgb(255, 231, 206);
+}
+table.cmbox-style {
+	background: rgb(255, 249, 219);
+}
+table.cmbox-move {
+	background: rgb(228, 216, 255);
+}
+table.cmbox-protection {
+	background: rgb(239, 239, 225);
+}
+table.tmbox {
+	background: rgb(248, 234, 186); margin: 4px 10%; border: 1px solid rgb(192, 192, 144); border-image: none; border-collapse: collapse;
+}
+.mediawiki .mbox-inside .tmbox {
+	margin: 2px 0px; width: 100%;
+}
+.mbox-inside .tmbox.mbox-small {
+	line-height: 1.5em; font-size: 100%;
+}
+table.tmbox-speedy {
+	background: rgb(254, 231, 230); border: 2px solid rgb(179, 36, 36); border-image: none;
+}
+table.tmbox-delete {
+	border: 2px solid rgb(179, 36, 36); border-image: none;
+}
+table.tmbox-content {
+	border: 2px solid rgb(242, 133, 0); border-image: none;
+}
+table.tmbox-style {
+	border: 2px solid rgb(255, 204, 51); border-image: none;
+}
+table.tmbox-move {
+	border: 2px solid rgb(153, 50, 204); border-image: none;
+}
+table.tmbox-protection {
+	border: 1px solid rgb(192, 192, 144); border-image: none;
+}
+table.tmbox-notice {
+	border: 1px solid rgb(192, 192, 144); border-image: none;
+}
+table.dmbox {
+	background: none; margin: 0.9em 1em; clear: both; font-size: small; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table.fmbox {
+	margin: 0.2em 0px; border: 1px solid rgb(162, 169, 177); border-image: none; width: 100%; clear: both;
+}
+table.fmbox-system {
+	
+}
+table.fmbox-warning {
+	
+}
+table.fmbox-editnotice {
+	background: none;
+}
+div.mw-warning-with-logexcerpt {
+	margin: 0.2em 0px; padding: 0.25em 0.9em; clear: both;
+}
+div.mw-lag-warn-high {
+	margin: 0.2em 0px; padding: 0.25em 0.9em; clear: both;
+}
+div.mw-cascadeprotectedwarning {
+	margin: 0.2em 0px; padding: 0.25em 0.9em; clear: both;
+}
+#mw-protect-cascadeon {
+	margin: 0.2em 0px; padding: 0.25em 0.9em; clear: both;
+}
+body.mediawiki table.mbox-small {
+	margin: 4px 0px 4px 1em; width: 238px; line-height: 1.25em; clear: right; font-size: 88%; float: right;
+}
+body.mediawiki table.mbox-small-left {
+	margin: 4px 1em 4px 0px; width: 238px; line-height: 1.25em; font-size: 88%; border-collapse: collapse;
+}
+.compact-ambox table.ambox {
+	background: none; margin: 0px 0px 0px 1.6em !important; padding: 0px !important; border: currentColor; border-image: none; width: auto; display: block; border-collapse: collapse;
+}
+body.mediawiki .compact-ambox table.mbox-small-left {
+	margin: 0px; width: auto; font-size: 100%;
+}
+.compact-ambox table .mbox-text {
+	margin: 0px !important; padding: 0px !important;
+}
+.compact-ambox table .mbox-text-span {
+	line-height: 1.5em; display: list-item; list-style-type: square; list-style-image: url("data:image/gif;base64,R0lGODlhBQANAIAAAGOMnP///yH5BAEAAAEALAAAAAAFAA0AAAIJjI+pu+APo4SpADs=");
+}
+.compact-ambox table .mbox-image {
+	display: none;
+}
+.compact-ambox table .mbox-imageright {
+	display: none;
+}
+.compact-ambox table .mbox-empty-cell {
+	display: none;
+}
+#siteNotice div {
+	margin: 0px;
+}
+#siteNotice {
+	color: inherit;
+}
+#mw-dismissable-notice {
+	background: none;
+}
+#wpSummary {
+	margin-top: 0px; margin-bottom: 0px;
+}
+#wpSummaryLabel {
+	margin-top: 0px; margin-bottom: 0px;
+}
+input#wpSummary {
+	margin-top: 0px; margin-bottom: 0px;
+}
+input.mw-summary {
+	margin-top: 0px; margin-bottom: 0px;
+}
+cite {
+	font-style: normal;
+}
+.transborder {
+	
+}
+.ns-14 .mw-content-ltr > div[dir='ltr'] {
+	clear: both;
+}
+.sysop-show {
+	display: none;
+}
+.patroller-show {
+	display: none;
+}
+.templateeditor-show {
+	display: none;
+}
+.ipblock-exempt-grantor-show {
+	display: none;
+}
+.extendedconfirmed-show {
+	display: none;
+}
+.autoconfirmed-show {
+	display: none;
+}
+.user-show {
+	display: none;
+}
+.mw-summary-preset {
+	margin: 0px; padding: 0px; display: inline;
+}
+.mw-summary-preset-item {
+	margin: 0.12em 0px; padding: 0px 0.5em; line-height: 1.25em; display: inline-block;
+}
+:first-child.mw-summary-preset-item {
+	padding-left: 0.25em; border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+:last-child.mw-summary-preset-item {
+	padding-right: 0.25em;
+}
+#pagehistory li.not-patrolled {
+	
+}
+.noteTA {
+	display: none;
+}
+#footer ul li {
+	font-size: small;
+}
+.portal-column-left {
+	width: 50%; float: left;
+}
+.portal-column-right {
+	width: 49%; float: right;
+}
+.portal-column-left-wide {
+	width: 60%; float: left;
+}
+.portal-column-right-narrow {
+	width: 39%; float: right;
+}
+.portal-column-left-extra-wide {
+	width: 70%; float: left;
+}
+.portal-column-right-extra-narrow {
+	width: 29%; float: right;
+}
+@media only screen and (max-width:800px)
+{
+.portal-column-left {
+	width: inherit; float: inherit;
+}
+.portal-column-right {
+	width: inherit; float: inherit;
+}
+.portal-column-left-wide {
+	width: inherit; float: inherit;
+}
+.portal-column-right-narrow {
+	width: inherit; float: inherit;
+}
+.portal-column-left-extra-wide {
+	width: inherit; float: inherit;
+}
+.portal-column-right-extra-narrow {
+	width: inherit; float: inherit;
+}
+}
+#interwiki-completelist {
+	font-weight: bold;
+}
+.tag-jimmy-bot-non-free {
+	font-size: 1.14em;
+}
+.wikitable.plainrowheaders th[scope='row'] {
+	text-align: left; font-weight: normal;
+}
+.mw-history-editchangetags-button {
+	display: none;
+}
+.mw-log-editchangetags-button {
+	display: none;
+}
+pre {
+	white-space: pre-wrap; -ms-word-break: break-all;
+}
+.mw-code {
+	white-space: pre-wrap; -ms-word-break: break-all;
+}
+.mw-highlight {
+	white-space: pre-wrap; -ms-word-break: break-all;
+}
+.fileinfo-paramfield {
+	background: rgb(204, 204, 255); width: 15%; text-align: right; padding-right: 0.4em; font-weight: bold;
+}
+.mw-changeslist-src-mw-edit .unpatrolled {
+	display: none;
+}
+#mw-diff-ntitle4 .patrollink {
+	display: none;
+}
+#mw-content-text span.patrollink {
+	display: none;
+}
+.mw-diffPage-inlineToggle-container {
+	white-space: nowrap;
+}
+.mw-parser-output .mw-collapsible-toggle {
+	text-align: right; padding-right: 0.2em; padding-left: 0.2em; font-weight: normal;
+}
+.mw-collapsible-leftside-toggle .mw-collapsible-toggle {
+	text-align: left; float: left;
+}
+@media screen
+{
+#siteSub {
+	display: block;
+}
+}
+.mw-parser-output .IPA {
+	font-family: "Charis","Charis SIL","Doulos SIL","Gentium","Gentium Alternative","GentiumAlt","Code2000","Segoe UI",system-ui,sans-serif;
+}
+ul.permissions-errors {
+	margin: 0px;
+}
+ul.permissions-errors > li {
+	list-style: none;
+}
+#mw-indicator-coordinates #coordinates {
+	top: auto; right: auto; line-height: 2; font-size: 92%; float: none; position: relative;
+}
+.mw-indicators .mw-indicators {
+	display: flex; column-gap: 10px;
+}
+.skin-vector-2022 #mp-2012-banner {
+	margin: auto !important;
+}
+@media screen and (min-width:982px)
+{
+.skin-vector-2022 #mp-2012-banner {
+	margin: auto !important;
+}
+}
+@media screen
+{
+html.skin-theme-clientpref-night .navbox a:not(.new):not(.mw-selflink):link {
+	
+}
+html.skin-theme-clientpref-night .infobox a:not(.new):not(.mw-selflink):link {
+	
+}
+html.skin-theme-clientpref-night .mw-parser-output > figure img {
+	
+}
+}
+@media not all
+{
+html.skin-theme-clientpref-os .navbox a:not(.new):not(.mw-selflink):link {
+	
+}
+html.skin-theme-clientpref-os .infobox a:not(.new):not(.mw-selflink):link {
+	
+}
+html.skin-theme-clientpref-os .mw-parser-output > figure img {
+	
+}
+}
+.toc {
+	padding: 7px; display: table;
+}
+.toccolours {
+	padding: 5px; font-size: 95%;
+}
+.toc {
+	padding: 5px; font-size: 95%;
+}
+table.toc {
+	border-collapse: collapse;
+}
+table.toc td {
+	padding: 0px;
+}
+.action-view.page-Wikipedia_Ê×Ò³ #siteSub {
+	display: none !important;
+}
+@media print
+{
+html {
+	font-family: serif;
+}
+body {
+	font-family: serif;
+}
+.mw-body h1 {
+	font-family: sans-serif;
+}
+.mw-body h2 {
+	font-family: sans-serif;
+}
+.mw-body h3 {
+	font-family: sans-serif;
+}
+.mw-body h4 {
+	font-family: sans-serif;
+}
+.mw-body h5 {
+	font-family: sans-serif;
+}
+.mw-body h6 {
+	font-family: sans-serif;
+}
+.inline-unihan {
+	border-bottom-color: currentColor !important; border-bottom-width: medium !important; border-bottom-style: none !important;
+}
+.ns-0 .ambox {
+	display: none !important;
+}
+.ns-0 .metadata {
+	display: none !important;
+}
+.ns-0 .mbox-small {
+	display: none !important;
+}
+.editlink {
+	display: none !important;
+}
+a.NavToggle {
+	display: none !important;
+}
+span.collapseButton {
+	display: none !important;
+}
+span.mw-collapsible-toggle {
+	display: none !important;
+}
+.ns-0 .mw-indicators {
+	display: none !important;
+}
+.ns-0 .mw-cite-backlink {
+	display: none !important;
+}
+.ns-0 .stub {
+	display: none !important;
+}
+#filetoc {
+	display: none !important;
+}
+#footer-places {
+	display: none !important;
+}
+#privacy {
+	display: none !important;
+}
+#about {
+	display: none !important;
+}
+#disclaimer {
+	display: none !important;
+}
+#catlinks {
+	display: none !important;
+}
+span#coordinates {
+	display: none !important;
+}
+span.toctoggle {
+	display: none !important;
+}
+th .sortkey {
+	display: none !important;
+}
+td .sortkey .noprint {
+	display: none !important;
+}
+#content cite a.external.text::after {
+	display: none !important;
+}
+.nourlexpansion a.external.text::after {
+	display: none !important;
+}
+.nourlexpansion a.external.autonumber::after {
+	display: none !important;
+}
+table.collapsible tr {
+	display: block !important;
+}
+div.NavPic {
+	display: block !important;
+}
+div.NavContent {
+	display: block !important;
+}
+table.collapsible tr {
+	display: table-row !important;
+}
+.skin-simple div#column-one {
+	display: none;
+}
+.skin-simple div#f-poweredbyico {
+	display: none;
+}
+.skin-simple div#f-copyrightico {
+	display: none;
+}
+.skin-simple .editsection {
+	display: none;
+}
+.NavToggle {
+	display: none !important;
+}
+#firstHeading {
+	margin: 0px;
+}
+#content a.external.text::after {
+	-ms-word-wrap: break-word;
+}
+#content a.external.autonumber::after {
+	-ms-word-wrap: break-word;
+}
+blockquote {
+	page-break-inside: avoid;
+}
+table {
+	page-break-inside: avoid;
+}
+pre {
+	page-break-inside: avoid;
+}
+.toc {
+	page-break-inside: avoid;
+}
+.toc {
+	box-decoration-break: clone;
+}
+.infobox {
+	border: 1px solid rgb(170, 170, 170); border-image: none; width: 180pt !important; border-collapse: collapse; border-spacing: 0; background-color: rgb(255, 255, 255);
+}
+.infobox > * > tr > td {
+	padding: 2px 5px; border-bottom-color: rgb(234, 236, 240); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.infobox > * > tr > th {
+	padding: 2px 5px; border-bottom-color: rgb(234, 236, 240); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.infobox a {
+	border: 0px currentColor; border-image: none;
+}
+.infobox > * > tr:last-child > th {
+	border: 0px currentColor; border-image: none;
+}
+.infobox > * > tr:last-child > td {
+	border: 0px currentColor; border-image: none;
+}
+.refbegin a {
+	color: black !important;
+}
+.references a {
+	color: black !important;
+}
+.reference a {
+	color: black !important;
+}
+.printfooter {
+	clear: both;
+}
+}
